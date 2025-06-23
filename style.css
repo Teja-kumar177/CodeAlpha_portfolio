@@ -1,4 +1,4 @@
-/* Font and global settings */
+
 body {
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
@@ -12,7 +12,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Hero Gradient Section */
 .hero-section {
   height: 100vh;
   background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
@@ -113,7 +112,6 @@ body {
   }
 }
 
-/* Scroll down arrow animation */
 .scroll-down-arrow::after {
   content: "↓";
   font-size: 2rem;
@@ -128,7 +126,7 @@ body {
   50% { transform: translateY(10px); }
 }
 
-/* Timeline */
+
 .timeline {
   position: relative;
   margin: 40px auto;
@@ -171,12 +169,12 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .hero-section img {
-  width: 160px;              /* Set fixed width */
-  height: 160px;             /* Set fixed height equal to width */
-  object-fit: cover;         /* Ensures image covers the box fully */
-  border-radius: 50%;        /* Makes it a perfect circle */
-  border: 3px solid #fff;    /* Optional: adds a white border */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Optional: adds shadow */
+  width: 160px;              
+  height: 160px;             
+  object-fit: cover;         
+  border-radius: 50%;        
+  border: 3px solid #fff;    
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
 }
 
 .timeline-item.left .content::before,
@@ -198,10 +196,7 @@ body {
 .timeline-item.right .content::before {
   left: -7.5px;
 }
-/* === Education Timeline already styled previously === */
-/* Reuse .timeline, .timeline-item, and .content */
 
-/* === Certificates === */
 #certificates .card {
   border: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -225,13 +220,13 @@ body {
   color: #555;
 }
 
-/* Optional: Responsive tweaks */
+
 @media (max-width: 576px) {
   .card-title {
     font-size: 1.2rem;
   }
 }
-/* Skills */
+
 .skill-card {
   background-color: #ffffff;
   padding: 15px;
@@ -246,7 +241,7 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-/* Projects */
+
 .project-card {
   border: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -257,24 +252,24 @@ body {
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
 }
 
-/* Resume button */
+
 .btn-outline-dark {
   border-radius: 30px;
   padding: 10px 30px;
 }
 
-/* Navbar background change on scroll (optional JS feature) */
+
 .navbar.scrolled {
   background-color: #000 !important;
   transition: background-color 0.4s ease;
 }
 
-/* Footer */
+
 footer {
   font-size: 14px;
 }
 
-/* Responsive Timeline */
+
 @media (max-width: 768px) {
   .timeline::after {
     left: 10px;
